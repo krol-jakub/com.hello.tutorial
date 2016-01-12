@@ -9,9 +9,11 @@ public class App
 	      ApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");
 
 	      HelloWorld obj = (HelloWorld) context.getBean("helloWorld");
+	      HelloWorld obj3 = (HelloWorld) context.getBean("helloWorld2");
 	      HelloWorld obj2 = (HelloWorld) context.getBean("probnaMetoda");
 
 	      obj.getMessage();
 	      obj2.getMessage2();
+	      obj3.getMessage();
 	   }
 }
