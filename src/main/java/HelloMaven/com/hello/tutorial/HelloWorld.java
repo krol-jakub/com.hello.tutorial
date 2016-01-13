@@ -12,6 +12,6 @@ public class HelloWorld {
 	   }
 	   
 	   public void getMessage2(){
-		   System.out.println(String.format("Your Message : %1$d",Integer.decode(message),2));
+		   System.out.println(String.format("Your Message : %1$d",Integer.decode(message)));
 	   }
 	}
